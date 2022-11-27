@@ -124,7 +124,7 @@ func main() {
 
 func usage() {
 	fmt.Print("趣味小知识：你可以直接放入zip文件，程序会自行解压！\n")
-	fmt.Print("汉化：糖糖\ntangtangのlinux交流群：882515035\n")
+
 	fmt.Fprintf(os.Stderr, "用法: %s [参数] [文件]\n", os.Args[0])
 	flag.PrintDefaults()
 	os.Exit(2)
